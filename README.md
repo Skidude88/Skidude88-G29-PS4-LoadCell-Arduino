@@ -151,6 +151,6 @@ https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-ove
 Note: be carefull of the USB connector, Unfortunately itdoesn't take much to knock it off
 
 
-
+# Currently investigating running the 5v 16Hz Pro Micro at 3.3v 8Hz. So can be powered by the G29.
 
 
