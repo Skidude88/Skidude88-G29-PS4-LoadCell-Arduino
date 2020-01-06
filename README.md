@@ -53,7 +53,7 @@ DAT - Data
 
 Vcc/Gnd - Power/Ground
 
-The HX711 board can run at either 10Hz (By default) or 80hz. Some boards have a select jumper to solder/break track. To acheive 80Hz without this selector (on cheaper version boards) the Rate pin requires +v. Cut the track immediatly next to pin15 "Rate" (Some forum posts needlessly go to the trouble of lifting pin15 pin off the board!) and then solder pin15 to pin16 (Vcc) directly above. 
+The HX711 board can run at either 10Hz (By default) or 80Hz. Some boards have a select jumper to solder/break track. To acheive 80Hz without this selector (on cheaper version boards) the Rate pin requires +v. Cut the track directly next to pin15 "Rate" (Some forum posts needlessly go to the trouble of lifting pin15 off the board!) and then solder pin15 to pin16 (Vcc) directly above. 
 
 
 
