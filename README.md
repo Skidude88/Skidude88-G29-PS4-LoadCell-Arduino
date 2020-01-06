@@ -53,7 +53,7 @@ DAT - Data
 
 Vcc/Gnd - Power/Ground
 
-The HX711 board can run at either 10hz (By default) or 80hz. Some boards have a select jumper to solder/break track. To acheive 80hz without this selector (on cheaper version boards) the Rate pin requires +v. Cut the track immediatly next to pin15 "Rate" (Some forum posts go to the trouble of lift pin15 pin off the board!) and then solder pin15 to pin16 (Vcc) directly above. 
+The HX711 board can run at either 10Hz (By default) or 80hz. Some boards have a select jumper to solder/break track. To acheive 80Hz without this selector (on cheaper version boards) the Rate pin requires +v. Cut the track immediatly next to pin15 "Rate" (Some forum posts needlessly go to the trouble of lifting pin15 pin off the board!) and then solder pin15 to pin16 (Vcc) directly above. 
 
 
 
@@ -133,7 +133,7 @@ https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-ove
 
 
 
-Note: be carefull of the USB connector, doesn't take much to knock it off
+Note: be carefull of the USB connector, Unfortunately itdoesn't take much to knock it off
 
 
 
