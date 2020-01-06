@@ -7,9 +7,9 @@ https://github.com/GeekyDeaks/g29-load-cell
 
 # Initial Shopping List:
 
-Arduino Pro Micro
+Arduino Pro Micro - Ideally 3.3v version. This project used the 5v as a proof of theory.
 
-'Bathroom Scales' style Load Cell
+'Bathroom Scales' style Load Cell(s)
 
 Load Cell Amplifier : HX711
 
@@ -120,5 +120,22 @@ Consisting of :
 Usefull info:
 
 https://provideyourown.com/2011/analogwrite-convert-pwm-to-voltage/
+
+# Arduino Pro Micro 5v 16Hz
+
+Requires USB power,so usefull to have a PC close to Pedals for (programming and power)
+
+Use any of Data pins to receive the HX711 CLK and Data signals (any two of the 18 "Blue" pins on link below)
+
+Use any of the 5 PWM pins to output the PWM "voltage" out to the low pass filter (any of the 5 "red tick" pins on the link below)
+
+https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro
+
+
+
+Note: be carefull of the USB connector, doesn't take much to knock it off
+
+
+
 
 
