@@ -65,7 +65,7 @@ The HX711 has two channels, A & B, this project is using A, so connect to A+ & A
 
 Note for the Arduino sketch file: 
 
-The hx711.h library file details the .begin command having a gain parameter. If not specified a default is 128 on Channel A
+The hx711.h library file details the .begin command having a gain parameter. If not specified, a default of 128 is used : Channel A
 
 	  	// Initialize library with data output pin, clock input pin and gain factor.
 		// Channel selection is made by passing the appropriate gain:
