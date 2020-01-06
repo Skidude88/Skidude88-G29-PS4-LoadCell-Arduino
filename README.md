@@ -21,8 +21,6 @@ A Mate with a 3D printer & see GeekyDeaks project above for CAD designs.
 
 Input Pins from Load Cells:
 
-
-
 E+ (Excite +)
 
 E- (Excite -)
@@ -35,10 +33,7 @@ B+ (Amplifier/Output + Channel B) - Not used for this project
 
 B- (Amplifier/Output - Channel B) - Not used for this project
 
-
-
 Output Pins:
-
 
 SCK - Clock
 
@@ -56,11 +51,12 @@ https://www.arduino.cc/en/main/software
 Initially 2x Load cells were used, each being half of a Wheatstone Bridge
 
 LoadCell#1 - White wire, Connect to LoadCell#2 - Black wire
+
 LoadCell#2 - White wire, Connect to LoadCell#1 - Black wire
 
 These are E+ & E-
 
-The 2x red wires are A+ & A-
+Then the remaining 2x red wires are A+ & A-
 
 The HX711 has two channels, A & B, this project is using A, so connect to A+ & A-
 
