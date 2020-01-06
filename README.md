@@ -21,6 +21,22 @@ A Mate with a 3D printer
 Arduino IDE (Desktop) v1.8.10
 https://www.arduino.cc/en/main/software
 
-# Load Cells
+# Dual Load Cells
 
 Initially 2x Load cells were used, each being half of a Wheatstone Bridge
+
+Usefull Info:
+https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide?_ga=2.166487294.1982490767.1578266625-357928328.1568243893
+
+https://www.instructables.com/id/How-to-Interface-HX711-Balance-Module-With-Load-Ce/
+
+
+# Single Load Cell
+
+Usefull Info:
+
+https://www.instructables.com/id/Tutorial-to-Interface-HX711-With-Load-Cell-Straigh/
+
+
+
+
