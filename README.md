@@ -17,6 +17,32 @@ Load Cell Amplifier : HX711
 A Mate with a 3D printer & see GeekyDeaks project above for CAD designs.
 
 
+# HX711
+
+Input Pins from Load Cells:
+
+E+ (Excite +)
+
+E- (Excite -)
+
+A+ (Amplifier/Output + Channel A)
+
+A- (Amplifier/Output - Channel A)
+
+B+ (Amplifier/Output + Channel B) - Not used for this project
+
+B- (Amplifier/Output - Channel B) - Not used for this project
+
+
+Output Pins:
+
+SCK - Clock
+
+DAT - Data
+
+Vcc/Gnd - Power/Ground
+
+
 # Software
 Arduino IDE (Desktop) v1.8.10
 https://www.arduino.cc/en/main/software
@@ -32,7 +58,7 @@ These are E+ & E-
 
 The 2x red wires are A+ & A-
 
-The HX711 has two channels, A & B, were using A, so connect to A+ & A-
+The HX711 has two channels, A & B, this project is using A, so connect to A+ & A-
 
 Note for the Arduino sketch file: 
 
