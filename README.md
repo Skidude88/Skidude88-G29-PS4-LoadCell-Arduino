@@ -9,3 +9,5 @@ Arduino Pro Micro
 
 Load Cell Amplifier : HX711
 
+# Software
+Arduino IDE (Desktop) v1.8.10
