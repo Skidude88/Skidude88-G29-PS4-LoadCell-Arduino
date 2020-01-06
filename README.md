@@ -41,4 +41,20 @@ https://www.instructables.com/id/Tutorial-to-Interface-HX711-With-Load-Cell-Stra
 
 
 
+#G29 Pedal (more detail on GeekyDeaks project)
+
+Pedal off = 3.0v
+Pedal on  = 1.9v
+
+
+Suppliying PWM from the Micro Pro didn't work, so a  basic passive low pass filer was added.
+Consisting of :
+
+1x 2.2uF Capacitor
+1x 4.7k resistor
+
+Usefull info:
+
+https://provideyourown.com/2011/analogwrite-convert-pwm-to-voltage/
+
 
