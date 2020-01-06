@@ -142,6 +142,7 @@ Use any of the 5x PWM pins to output the PWM "voltage" out to the low pass filte
 It was determined that PWM(255) wasn't 5v,it was 4.7v (Pro Micro Voltage drop due to onboard circuitry). This resulted in calculations being base as 
 
 3.0v - PWM(163) - 0% Brake Pedal
+
 1.9v - PWM(103) - 100% Brake Pedal
 
 https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro
