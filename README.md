@@ -14,7 +14,7 @@ Arduino Pro Micro
 Load Cell Amplifier : HX711
 
 # Other Project Requirements
-A Mate with a 3D printer
+A Mate with a 3D printer & see GeekyDeaks project above for CAD designs.
 
 
 # Software
