@@ -63,7 +63,7 @@ https://www.arduino.cc/en/main/software
 
 # Dual Load Cells
 
-Initially 2x Load cells were used, each being half of a Wheatstone Bridge
+Initially 2x 3 wire load cells were used, each being half of a Wheatstone Bridge
 
 LoadCell#1 - White wire, Connect to LoadCell#2 - Black wire
 
@@ -98,7 +98,7 @@ https://www.instructables.com/id/How-to-Interface-HX711-Balance-Module-With-Load
 
 # Single Load Cell
 
-One of the Loadcells is replaced by 2x 1K resistors to complete the 2nd half of the Wheatstone Bridge.
+One of the 3 wire load cells is replaced by 2x 1K resistors to complete the 2nd half of the Wheatstone Bridge.
 
 Usefull Info: Step 2 on the link below shows the relevant connections between the remaining loadcell and resistors.
 
