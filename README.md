@@ -20,3 +20,7 @@ A Mate with a 3D printer
 # Software
 Arduino IDE (Desktop) v1.8.10
 https://www.arduino.cc/en/main/software
+
+# Load Cells
+
+Initially 2x Load cells were used, each being half of a Wheatstone Bridge
