@@ -86,7 +86,7 @@ https://www.instructables.com/id/How-to-Interface-HX711-Balance-Module-With-Load
 
 One of the Loadcells is replaced by 2x 1K resistors to complete the 2nd half of the Wheatstone Bridge.
 
-Usefull Info:
+Usefull Info: Step 2 shows relevant connections between the remaining loadcell and resistors.
 
 https://www.instructables.com/id/Tutorial-to-Interface-HX711-With-Load-Cell-Straigh/
 
