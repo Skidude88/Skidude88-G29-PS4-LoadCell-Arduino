@@ -26,7 +26,9 @@ https://www.arduino.cc/en/main/software
 Initially 2x Load cells were used, each being half of a Wheatstone Bridge
 
 Usefull Info:
+
 https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide?_ga=2.166487294.1982490767.1578266625-357928328.1568243893
+
 
 https://www.instructables.com/id/How-to-Interface-HX711-Balance-Module-With-Load-Ce/
 
