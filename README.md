@@ -129,13 +129,13 @@ https://provideyourown.com/2011/analogwrite-convert-pwm-to-voltage/
 
 Requires USB power,so usefull to have a PC close to Pedals for (programming and power)
 
-Use any of Data pins to receive the HX711 CLK and Data signals (any two of the 18 "Blue" pins on link below). In this project pin15 was used for Data, pin14 for CLK.
+Use any of the Data pins to receive the HX711 CLK and Data signals (any two of the 18 "Blue" pins on link below). In this project pin15 was used for Data, pin14 for CLK.
 
-The get_value data received from the HX711 to pin15, when pressing down really hard on the Load cell(s) is the magnitue of 1,000,000. To make thing easier and arbitrary scalar of 1100 was used.
+https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro
 
+The get_value data received from the HX711 to pin15, when pressing down really hard on the Load cell(s) is the magnitude of 1,000,000. To make thing easier and arbitrary scalar of 1100 was used.
 
-
-Use any of the 5x PWM pins to output the PWM "voltage" out to the low pass filter (any of the 5 "red tick" pins on the link below). This project used pin10.
+Use any of the 5x PWM pins to output the PWM "voltage" out to the low pass filter (any of the 5 "red tick" pins on the link above). This project used pin10.
 
 It was determined that PWM(255) wasn't 5v,it was 4.7v (Pro Micro Voltage drop due to onboard circuitry). This resulted in calculations being base as 
 
