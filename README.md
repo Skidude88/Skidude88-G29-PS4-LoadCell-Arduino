@@ -13,6 +13,18 @@ Arduino Pro Micro
 
 Load Cell Amplifier : HX711
 
+# Further Requirements
+
+Low Pass Filter:
+
+1x Resistror
+
+1x Capacitor
+
+For single loadcell configuration:
+
+2x 1k resistors
+
 # Other Project Requirements
 A Mate with a 3D printer & see GeekyDeaks project above for CAD designs.
 
