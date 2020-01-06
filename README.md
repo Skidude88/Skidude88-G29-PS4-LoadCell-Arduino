@@ -26,7 +26,9 @@ For single loadcell configuration:
 2x 1k resistors
 
 # Other Project Requirements
-A Mate with a 3D printer & see GeekyDeaks project above for CAD designs.
+A Mate with a 3D printer 
+
+CAD design - see main GeekyDeaks project above.
 
 
 # HX711
