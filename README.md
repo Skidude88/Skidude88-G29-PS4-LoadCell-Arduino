@@ -86,7 +86,7 @@ The hx711.h library file details the .begin command having a gain parameter. If 
 		// The library default is "128" (Channel A).
 		void begin(byte dout, byte pd_sck, byte gain = 128);
 		
-If the load cell doesn't perform as expect, switch around either the A+ and A- (red wires) or the E+ and E- (Either option is doing the same thing).		
+If the load cell doesn't perform as expect, switch around either: A+ with A- (red wires) or the E+ with E-. (Either option is doing the same thing).		
 
 Usefull Info:
 
@@ -113,13 +113,13 @@ Pedal off = 3.0v
 Pedal on  = 1.9v
 
 
-Suppliying PWM from the Pro Micro didn't work, so a  basic passive low pass filer was added.
+Suppliying PWM signal direct to the G29 (pin9) from the Pro Micro didn't work, so a  basic passive low pass filer was added.
 Consisting of :
 
 1x 2.2uF Capacitor
 1x 4.7k resistor
 
-The pedal then operated OK and was usable.   
+The pedal then operated OK and is usable. However, visually, it is noted that there is flicker on the brake pedal travel. This is work in progress to improve/resolve. Will investingate the use of a DAC board (MCP4725) in place of the Low pass filter and/or running the Arduino at 8Hz (3.3v)
 
 Usefull info:
 
