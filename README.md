@@ -38,7 +38,7 @@ Note for the Arduino sketch file:
 
 The hx711.h library file details the .begin command having a gain parameter. If not specified a default is 128 on Channel A
 
-	  // Initialize library with data output pin, clock input pin and gain factor.
+	  	// Initialize library with data output pin, clock input pin and gain factor.
 		// Channel selection is made by passing the appropriate gain:
 		// - With a gain factor of 64 or 128, channel A is selected
 		// - With a gain factor of 32, channel B is selected
