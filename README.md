@@ -22,6 +22,7 @@ A Mate with a 3D printer & see GeekyDeaks project above for CAD designs.
 Input Pins from Load Cells:
 
 
+
 E+ (Excite +)
 
 E- (Excite -)
@@ -33,6 +34,7 @@ A- (Amplifier/Output - Channel A)
 B+ (Amplifier/Output + Channel B) - Not used for this project
 
 B- (Amplifier/Output - Channel B) - Not used for this project
+
 
 
 Output Pins:
