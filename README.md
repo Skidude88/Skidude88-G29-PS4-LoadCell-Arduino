@@ -25,6 +25,26 @@ https://www.arduino.cc/en/main/software
 
 Initially 2x Load cells were used, each being half of a Wheatstone Bridge
 
+LoadCell#1 - White wire, Connect to LoadCell#2 - Black wire
+LoadCell#2 - White wire, Connect to LoadCell#1 - Black wire
+
+These are E+ & E-
+
+The 2x red wires are A+ & A-
+
+The HX711 has two channels, A & B, were using A, so connect to A+ & A-
+
+Note for the Arduino sketch file: 
+
+The hx711.h library file details the .begin command having a gain parameter. If not specified a default is 128 on Channel A
+
+	  // Initialize library with data output pin, clock input pin and gain factor.
+		// Channel selection is made by passing the appropriate gain:
+		// - With a gain factor of 64 or 128, channel A is selected
+		// - With a gain factor of 32, channel B is selected
+		// The library default is "128" (Channel A).
+		void begin(byte dout, byte pd_sck, byte gain = 128);
+
 Usefull Info:
 
 https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide?_ga=2.166487294.1982490767.1578266625-357928328.1568243893
