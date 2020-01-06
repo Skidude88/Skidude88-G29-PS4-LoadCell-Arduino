@@ -1,5 +1,5 @@
 # Skidude88-G29-PS4-LoadCell-Arduino
-DIY load cell conversion for Logitech G29 on PS4 using Arduino Pro Micro
+DIY load cell conversion for Logitech G29 on PS4 using Arduino Pro Micro. On Gran Tourismo Sport, where no manual in-game device calibration is availiable.
 
 This Project was developed in conjunction with an analog version by GeekyDeaks
 
@@ -113,11 +113,13 @@ Pedal off = 3.0v
 Pedal on  = 1.9v
 
 
-Suppliying PWM from the Micro Pro didn't work, so a  basic passive low pass filer was added.
+Suppliying PWM from the Pro Micro didn't work, so a  basic passive low pass filer was added.
 Consisting of :
 
 1x 2.2uF Capacitor
 1x 4.7k resistor
+
+The pedal then operated OK and was usable.   
 
 Usefull info:
 
