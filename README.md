@@ -85,6 +85,8 @@ The hx711.h library file details the .begin command having a gain parameter. If 
 		// - With a gain factor of 32, channel B is selected
 		// The library default is "128" (Channel A).
 		void begin(byte dout, byte pd_sck, byte gain = 128);
+		
+If the load cell doesn't perform as expect, switch around either the A+ and A- (red wires) or the E+ and E- (Either option is doing the same thing).		
 
 Usefull Info:
 
