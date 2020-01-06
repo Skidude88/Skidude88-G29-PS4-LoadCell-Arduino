@@ -44,6 +44,7 @@ https://www.instructables.com/id/Tutorial-to-Interface-HX711-With-Load-Cell-Stra
 # G29 Pedal (more details on GeekyDeaks project)
 
 Pedal off = 3.0v
+
 Pedal on  = 1.9v
 
 
