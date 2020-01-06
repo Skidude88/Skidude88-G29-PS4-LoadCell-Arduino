@@ -41,6 +41,9 @@ DAT - Data
 
 Vcc/Gnd - Power/Ground
 
+The HX711 board can run at either 10hz (By default) or 80hz. Some boards have a select jumper to solder/break track. To acheive 80hz without this selector (on cheaper version boards) the Rate pin requires +v. Cut the track immediatly next to pin15 "Rate" (Some forum posts go to the trouble of lift pin15 pin off the board!) and then solder pin15 to pin16 (Vcc) directly above. 
+
+
 
 # Software
 Arduino IDE (Desktop) v1.8.10
