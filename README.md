@@ -110,7 +110,7 @@ https://www.instructables.com/id/Tutorial-to-Interface-HX711-With-Load-Cell-Stra
 
 Pedal off = 3.0v
 
-Pedal on  = 1.9v
+Pedal 100% = 1.9v
 
 
 Suppliying PWM signal direct to the G29 (pin9) from the Pro Micro didn't work, so a  basic passive low pass filer was added.
