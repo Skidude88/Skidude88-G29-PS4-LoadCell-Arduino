@@ -33,7 +33,7 @@ CAD design - see main GeekyDeaks project above.
 
 # HX711
 
-Input Pins from Load Cells:
+Input Pins (from Load Cells):
 
 E+ (Excite +)
 
@@ -52,6 +52,8 @@ Output Pins:
 SCK - Clock
 
 DAT - Data
+
+Other:
 
 Vcc/Gnd - Power/Ground
 
