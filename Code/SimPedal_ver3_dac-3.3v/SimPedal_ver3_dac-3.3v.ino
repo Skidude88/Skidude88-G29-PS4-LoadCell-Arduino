@@ -1,5 +1,6 @@
 #include <HX711.h>    // https://github.com/aguegu/ardulibs/tree/master/hx711
 #include <Wire.h>     //Include the Wire library to talk I2C
+#include <avr/power.h>
 
 //This is the I2C Address of the MCP4725, by default (A0 pulled to GND).
 //Please note that this breakout is for the MCP4725A0. 
@@ -22,7 +23,7 @@ const int LOADCELL_DOUT_PIN = 1;
 const int LOADCELL_SCK_PIN = 0;
 
 const float brakemax = -1200; //comfortably pressing hard on load cell, with single cell, inverted is -1200. To Stiffen brake go down to -1500
-const float arduino_vcc = 4.7; //USB 5v Arduino
+const float arduino_vcc = 3.3; //G29 3.3v
 const float G29BrakeFull_v = 1.9;
 const float G29BrakeOff_v = 3.1;
 const float dac_BrakeFullPerc = G29BrakeFull_v / arduino_vcc;
@@ -42,6 +43,10 @@ byte buffer[3];
 void setup()
 
 {
+
+  //Div_2 - 16MHz /2 = 8Mhz
+  clock_prescale_set(clock_div_2);
+  
   // Zero the pedal offset. This is is to compensate for the own weight
   // of the pedal. It is important not to apply any force to the pedal
   // While this is happening
@@ -65,12 +70,12 @@ void loop()
   RXLED0;
   
   brake_value = brake_pedal.get_value(1);
-
+  
   brake_value /= BRAKE_PEDAL_LOAD_CELL_SCALING;
   brake_value *= -1; // invert so off pedal is a higher value (0) than full pedal 
-
-  if (brake_value > 0){
-    brake_value = 0;  
+  
+  if(brake_value > 0){
+    brake_value = 0;
   }
   
   //Serial.println (brake_value);
