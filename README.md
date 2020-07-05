@@ -7,4 +7,5 @@ https://github.com/GeekyDeaks/g29-load-cell
 
 # For full info on this project please refer to the project Wiki Pages
 
-The final working Project is with a single load cell and a MCP4725 - DAC
+The final working project is with a single load cell and a MCP4725 - DAC
+For the Pedal 3D print files - Please see the aforementioned GeekyDeaks project pages
