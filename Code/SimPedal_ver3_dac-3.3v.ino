@@ -1,4 +1,4 @@
-#include <HX711.h>    // https://github.com/aguegu/ardulibs/tree/master/hx711
+#include <HX711.h>    // HX711-0.7.3.zip
 #include <Wire.h>     //Include the Wire library to talk I2C
 #include <avr/power.h>
 
