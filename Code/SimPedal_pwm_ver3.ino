@@ -1,4 +1,4 @@
-#include <HX711.h>    // https://github.com/aguegu/ardulibs/tree/master/hx711
+#include <HX711.h>    // HX711-0.7.3.zip
 
 // How many samples to take at initialization of the library to zero
 // out the offset of the load cell.
