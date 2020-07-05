@@ -6,3 +6,5 @@ This Project was developed in conjunction with an analog DIY load cell version b
 https://github.com/GeekyDeaks/g29-load-cell
 
 # For full info on this project please refer to the project Wiki Pages
+
+The final working Project is with a single load cell and a MCP4725 - DAC
